@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 3rem;
+    /* margin: 10rem auto; */
+    text-align: center;
+    text-transform: capitalize;
+    font-family: serif;
+    padding: 1rem;
+    border: 10px solid;
+}
+.input:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.github-profile,
+.github-profile:link,
+.github-profile:visited {
+    font-size: 5rem;
+    color: white;
+    display: inline-block;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+.github-profile:active {
+    color: rgb(210, 88, 238);
+}
